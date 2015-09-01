@@ -1,0 +1,49 @@
+/* CSS3 STYLE GENERIC */
+.view {
+   width: 269px;
+   height: 247px;
+   float: left;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   cursor: default;
+}
+.view .mask, .view .content {
+   width: 269px;
+   height: 350px;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+	 cursor:pointer;
+	 background:none;
+}
+.view img {
+   display: block;
+   position: relative;
+}
+.view a.info {
+   background:url(file:///E|/Myproject/Rainbow/SplashPage/html/Splash/images/abt_buyhover.png) center no-repeat;
+   display: inline-block;
+   text-decoration: none;
+   padding:0;
+   text-indent:-9999px;
+   width:256px;
+   height:280px;
+}
+.view a.inf {
+   display: inline-block;
+   text-decoration: none;
+   padding:0;
+   text-indent:-9999px;
+   width:256px;
+   height:320px;
+}
+.view a.lightwindow page-options{
+	display: inline-block;
+   text-decoration: none;
+   padding:0;
+   text-indent:-9999px;
+   width:256px;
+   height:320px;
+}

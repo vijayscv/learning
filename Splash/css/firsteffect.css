@@ -1,0 +1,123 @@
+/* CSS3 EFFECTS */
+
+/* FIFTH EFFECTS */
+.effect img {
+   opacity:1;
+   -moz-transform:scale(1,1);
+   -webkit-transform:scale(1,1);
+   -o-transform:scale(1,1);
+   -ms-transform:scale(1,1);
+   transform:scale(1,1);
+   -webkit-transition: all 0.2s ease-in;
+   -moz-transition: all 0.2s ease-in;
+   -o-transition: all 0.2s ease-in;
+   -ms-transition: all 0.2s ease-in;
+   transition: all 0.2s ease-in;
+}
+.effect .mask {
+	cursor:pointer;
+   opacity:0;
+   overflow:visible;
+   border-color:rgba(0,0,0,0.8) transparent transparent transparent;
+   border-style:solid;
+   border-width:164px;
+   width:245px;
+   height:400px;
+	 background:none;
+   -moz-transform:translateY(-125px);
+   -webkit-transform:translateY(-125px);
+   -o-transform:translateY(-125px);
+   -ms-transform:translateY(-125px);
+   transform:translateY(-125px);
+   -moz-transition: -moz-transform 0.2s 0.1s ease-out, opacity 0.3s ease-in-out;
+   -webkit-transition: -webkit-transform 0.2s 0.1s ease-out, opacity 0.3s ease-in-out;
+   -o-transition: -o-transform 0.2s 0.1s ease-out, opacity 0.3s ease-in-out;
+   -ms-transition: -ms-transform 0.2s 0.1s ease-out, opacity 0.3s ease-in-out;
+   transition: transform 0.2s 0.1s ease-out, opacity 0.3s ease-in-out;
+}
+.effect a.info {
+	opacity:0;
+   -moz-transform:translateY(-125px);
+   -webkit-transform:translateY(-125px);
+   -o-transform:translateY(-125px);
+   -ms-transform:translateY(-125px);
+   transform:translateY(-125px);
+   -moz-transition: -moz-transform 0.3s ease-in, opacity 0.1s ease-in-out;
+   -webkit-transition: -webkit-transform 0.3s ease-in, opacity 0.1s ease-in-out;
+   -o-transition: -o-transform 0.3s ease-in, opacity 0.1s ease-in-out;
+   -ms-transition: -ms-transform 0.3s ease-in, opacity 0.1s ease-in-out;
+   transition: transform 0.3s ease-in, opacity 0.1s ease-in-out;
+
+}
+.effect a.inf {
+	opacity:0;
+   -moz-transform:translateY(-125px);
+   -webkit-transform:translateY(-125px);
+   -o-transform:translateY(-125px);
+   -ms-transform:translateY(-125px);
+   transform:translateY(-125px);
+   -moz-transition: -moz-transform 0.3s ease-in, opacity 0.1s ease-in-out;
+   -webkit-transition: -webkit-transform 0.3s ease-in, opacity 0.1s ease-in-out;
+   -o-transition: -o-transform 0.3s ease-in, opacity 0.1s ease-in-out;
+   -ms-transition: -ms-transform 0.3s ease-in, opacity 0.1s ease-in-out;
+   transition: transform 0.3s ease-in, opacity 0.1s ease-in-out;
+
+}
+.effect a.lightwindow page-options {
+	opacity:0;
+   -moz-transform:translateY(-125px);
+   -webkit-transform:translateY(-125px);
+   -o-transform:translateY(-125px);
+   -ms-transform:translateY(-125px);
+   transform:translateY(-125px);
+   -moz-transition: -moz-transform 0.3s ease-in, opacity 0.1s ease-in-out;
+   -webkit-transition: -webkit-transform 0.3s ease-in, opacity 0.1s ease-in-out;
+   -o-transition: -o-transform 0.3s ease-in, opacity 0.1s ease-in-out;
+   -ms-transition: -ms-transform 0.3s ease-in, opacity 0.1s ease-in-out;
+   transition: transform 0.3s ease-in, opacity 0.1s ease-in-out;
+
+}
+.effect:hover img {
+	opacity:1;
+   -moz-transform:scale(0.8,0.8);
+   -webkit-transform:scale(0.8,0.8);
+   -o-transform:scale(0.8,0.8);
+   -ms-transform:scale(0.8,0.8);
+   transform:scale(0.8,0.8);
+}
+.effect:hover .mask {
+   opacity: 0.7;
+   -webkit-transform: translateY(0px);
+   -moz-transform: translateY(0px);
+   -o-transform: translateY(0px);
+   -ms-transform: translateY(0px);
+   transform: translateY(0px);
+	 cursor:pointer;
+}
+.effect:hover a.info {
+	opacity:1;
+   -moz-transform:translateY(100px);
+   -webkit-transform:translateY(100px);
+   -o-transform:translateY(100px);
+   -ms-transform:translateY(100px);
+   transform:translateY(100px);
+	 margin:-100px 0 0 0;
+}
+.effect:hover a.inf {
+	opacity:1;
+   -moz-transform:translateY(100px);
+   -webkit-transform:translateY(100px);
+   -o-transform:translateY(100px);
+   -ms-transform:translateY(100px);
+   transform:translateY(100px);
+	 margin:0 0 0 0;
+}
+.effect:hover a.lightwindow page-options{
+	opacity:1;
+   -moz-transform:translateY(100px);
+   -webkit-transform:translateY(100px);
+   -o-transform:translateY(100px);
+   -ms-transform:translateY(100px);
+   transform:translateY(100px);
+	 margin:-100px 0 0 0;
+}

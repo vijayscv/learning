@@ -1,0 +1,194 @@
+@charset "utf-8";
+ #box {
+	        width: 800px;
+	        height: 200px;
+	        position:relative;
+	        border: thin solid black;
+	    }
+#mcs_container{position:relative; width:600px; height:380px; margin:32px auto; color:#535353; font-family: 'Bitter', serif; font-size:14px; line-height:28px;}
+#mcs_container .customScrollBox{position:relative; height:380px; overflow:hidden;}
+
+#mcs_container .customScrollBox .container{
+	position:relative;
+	width:557px; 
+	top:0;
+	float:left;
+}
+
+#mcs_container .customScrollBox .content{clear:both;}
+
+#mcs_container .customScrollBox .content p{}
+
+#mcs_container .customScrollBox .content p.alt{}
+
+#mcs_container .customScrollBox img{border:none;}
+
+#mcs_container .dragger_container{position:relative; width:2px; height:300px; float:left; margin:23px 0 0 35px; background:#25aae1; cursor:pointer -moz-border-radius:2px; -khtml-border-radius:2px; -webkit-border-radius:2px; border-radius:2px; cursor:s-resize;}
+
+#mcs_container .dragger{position:absolute; width:5px; height:30px; background:#25aae1; margin-left:-2px; text-align:center; line-height:60px; color:#666; overflow:hidden; cursor:pointer; -moz-border-radius:2px; -khtml-border-radius:2px; -webkit-border-radius:2px; border-radius:2px;}
+
+#mcs_container .dragger_pressed{position:absolute; width:5px; height:60px; background:#fe8b00; text-align:center; line-height:60px; color:#666; overflow:hidden; -moz-border-radius:4px; -khtml-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; cursor:s-resize;}
+
+#mcs_container .scrollUpBtn,#mcs_container .scrollDownBtn{position:absolute; display:inline-block; width:14px; height:15px; margin-right:0px; text-decoration:none; right:0; }
+
+#mcs_container .scrollUpBtn{top:0px; background:url(mcs_btnUp.png) center center no-repeat;}
+
+#mcs_container .scrollDownBtn{bottom:12px; background:url(mcs_btnDown.png) center center no-repeat;}
+
+#mcs_container .scrollUpBtn:hover,#mcs_container .scrollDownBtn:hover{filter:alpha(opacity=60); -moz-opacity:0.60; -khtml-opacity:0.60; opacity:0.60;}
+
+@media (min-width: 500px) and (max-width: 900px) {
+#mcs_container{
+	width:100%;
+	height:auto;
+	margin:auto;
+}
+.abt_lft{
+	display:none;
+}
+.abt_rgt{
+	width:100%;
+	float:left;
+}
+.abt_txt{
+	width:100%;
+	text-align:justify;
+	height:auto;
+	margin:0 0 20px 0;
+}
+p{
+	padding:10px 25px 10px 25px;
+}
+#mcs_container .dragger_container{
+	background:none;
+	width:0;
+	display:none;
+}
+#mcs_container .scrollUpBtn{
+	background:none;
+}
+#mcs_container .scrollDownBtn{
+	background:none;
+}
+#mcs_container .dragger{
+	background:none;
+	width:0;
+	display:none;
+}
+#mcs_container .customScrollBox {
+    height: 100%;
+    overflow:visible;
+    position: relative;
+}
+#mcs_container .customScrollBox .container {
+ width:100%;
+ margin:auto;
+ height:auto;
+ }
+.abt_cont{
+	width:80%;
+	margin:30px auto;
+	height:auto;
+}
+.pdf_bt{
+	margin:0 0 10px 10px;
+	float:left;
+	font-size:13px;
+}
+.mb_head{
+	display:block;
+}
+#cssmenu ul{
+	margin:0 0 0 10px;
+	display:block;
+	width:340px;
+}
+.mb_tamil{
+	display:none;
+}
+.mb_nonesc{
+	display:none;
+}
+
+}
+@media (min-width:280px) and (max-width:499px) {
+#mcs_container{
+	width:100%;
+	margin:auto;
+}
+.abt_lft{
+	display:none;
+}
+.abt_rgt{
+	width:100%;
+	float:left;
+}
+.abt_txt{
+	width:100%;
+	text-align:justify;
+	height:auto;
+	margin: 0 0 40px 0; 
+}
+p{
+	padding:10px 25px 0 25px;
+}
+#mcs_container .dragger_container{
+	background:none;
+	width:0;
+	display:none;
+}
+#mcs_container .scrollUpBtn{
+	background:none;
+}
+#mcs_container .scrollDownBtn{
+	background:none;
+}
+#mcs_container .dragger{
+	background:none;
+	width:0;
+	display:none;
+}
+#mcs_container .customScrollBox {
+    height: 100%;
+    overflow:visible;
+    position: relative;
+}
+#mcs_container .customScrollBox .container {
+ width:100%;
+ margin:auto;
+ }
+ .eng{
+	 display:none;
+ }
+#cssmenu ul{
+	margin:auto;
+	display:block;
+	width:340px;
+}
+.mb_head{
+	display:block;
+}
+.abt_cont{
+	width:80%;
+	margin:30px auto;
+}
+.pdf_bt{
+margin:0 10px 10px 20px;
+float:left;
+padding:10px 50px 10px 50px;
+}
+.abtpag{
+	display:none;
+}
+.abtpag_tm{
+	display:none;
+}
+.abt_log{
+	margin:auto;
+	float:none;
+	text-align:center;
+}
+.mb_nonesc{
+	display:none;
+}
+}
